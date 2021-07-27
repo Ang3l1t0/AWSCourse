@@ -14,7 +14,7 @@ phases:
             - echo "we are in the build block"
             - echo "we will run some tests"
             - pwd
-            - grep -Fq "Congratulations" index.html
+            - grep -Fq "Congratulations" cicd-demo/index.html
     post_build:
         commands:
             - echo "we are in the post build phase"
