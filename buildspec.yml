@@ -17,9 +17,3 @@ phases:
     post_build:
         commands:
             - echo "we are in the post build phase"
-artifacts:
-    files:
-        - '**/*'
-    base-directory: base_location
-    name: dev-github-build-artifact
-    discard-path: no
